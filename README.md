@@ -1,16 +1,17 @@
 # tic_tac_toe
 
-A new Flutter project.
+Ну, кароче, я создал игру крестики-нолики.
 
-## Getting Started
+Пользователь может выбрать два режима игры: с ботом и с другом.
 
-This project is a starting point for a Flutter application.
+После выбора режима игры пользователь переходит на страницу выбора значка(либо крестик, либо нолик).
 
-A few resources to get you started if this is your first Flutter project:
+Если был выбран режим игры с другом, то друзья будут поочерёдно ставить значки в клетки поля.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Если был выбран режим игры с ботом, то после после хода игрока бот будет ставить свой значок. Бот реализован как выбор случайной клекти из всех свободных.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Игра продолжается до тех пор пока, либо кто-то не победит, либо не будет достигнута ничья, либо не будет нажат кнопка exit/restart.
+
+По большей части, тут я скорее практиковался с разными возможностями flutter, которые, я считаю, необходимо знать.
+
+Например, познакомился с Navigator, Riverpod, Dialog. По сути, это первое многостраничное приложение. Во истину волшебно!
